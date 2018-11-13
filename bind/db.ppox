@@ -1,0 +1,22 @@
+$TTL    604800
+@       IN SOA blackjack.ppox. root.localhost. (
+        2 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+)
+;
+        IN      NS      blackjack.ppox.
+
+blackjack       IN      A       192.168.0.234
+bj		IN	CNAME	blackjack
+router          IN      A       192.168.0.251
+voice           IN      A       192.168.0.43
+disco           IN      A       192.168.0.100
+aiy             IN      CNAME   voice
+storagewars	IN	A	192.168.0.42
+storage-wars	IN	CNAME	storagewars
+camera		IN	A	192.168.0.15
+
+phonemanager	IN	A	192.168.0.206

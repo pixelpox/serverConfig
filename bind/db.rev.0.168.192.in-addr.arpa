@@ -1,0 +1,15 @@
+@ IN SOA blackjack.ppox. blackjack.ppox. (
+	2017081401 ; serial
+	8H ; refresh
+	4H ; retry
+	4W ; expire
+	1D ; minimum
+)
+
+		IN NS 	blackjack.ppox.
+1		IN PTR	router.ppox.
+234		IN PTR	blackjack.ppox.
+43		IN PTR	voice.ppox.
+100		IN PTR	disco.ppox.
+42		IN PTR	storagewars.ppox.
+15		IN PTR	camera.ppox.
